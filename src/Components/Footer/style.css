@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container hr {
+    border: 1px solid #a9a4a4;
+    width: 100%;
+}
+.join-news {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 50px;
+}
+
+.social {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex: 2;
+    gap: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px 0px;
+}
+
+.links-1, .links-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.copyRights {
+    font-weight: bold;
+    font: 1em;
+}

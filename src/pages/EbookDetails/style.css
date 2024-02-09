@@ -1,0 +1,107 @@
+.ebook-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px 100px;
+    padding-bottom: 30px;
+    border-bottom:1px solid black;
+}
+
+.back-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-wrapper {
+    display: flex;
+    gap: 30px;
+    height: 80vh;
+}
+
+.ebook-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    flex: 1;
+    background-color: darkgray;
+}
+
+.ebook-left-wrapper select {
+    border: 1px solid transparent;
+    height: 64px;
+    background-color: darkgray;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.ebook-right-wrapper {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bookmark-wrapper {
+    border: 1px solid gray;
+    padding:10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.main-wrapper-img{
+    width: 100%;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zoom {
+    display: flex;
+    gap: 30px;
+    border: 1px solid seagreen;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.zoom img {
+    cursor: pointer;
+}
+
+.slider-wrapper {
+    display: flex;
+    gap: 150px;
+    border: 1px solid seagreen;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-wrapper div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
